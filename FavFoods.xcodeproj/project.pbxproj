@@ -14,6 +14,16 @@
 		E5B66C8628C09B1F00C9BF07 /* FavFoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B66C8528C09B1F00C9BF07 /* FavFoodsTests.swift */; };
 		E5B66C9028C09B1F00C9BF07 /* FavFoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B66C8F28C09B1F00C9BF07 /* FavFoodsUITests.swift */; };
 		E5B66C9228C09B1F00C9BF07 /* FavFoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B66C9128C09B1F00C9BF07 /* FavFoodsUITestsLaunchTests.swift */; };
+		E5B66C9F28C0AA0700C9BF07 /*  GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B66C9E28C0AA0700C9BF07 /*  GetStartedView.swift */; };
+		E5B66CA328C0B66400C9BF07 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA028C0B66300C9BF07 /* Poppins-Bold.ttf */; };
+		E5B66CA428C0B66400C9BF07 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA028C0B66300C9BF07 /* Poppins-Bold.ttf */; };
+		E5B66CA528C0B66400C9BF07 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA028C0B66300C9BF07 /* Poppins-Bold.ttf */; };
+		E5B66CA628C0B66400C9BF07 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA128C0B66300C9BF07 /* Poppins-Regular.ttf */; };
+		E5B66CA728C0B66400C9BF07 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA128C0B66300C9BF07 /* Poppins-Regular.ttf */; };
+		E5B66CA828C0B66400C9BF07 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA128C0B66300C9BF07 /* Poppins-Regular.ttf */; };
+		E5B66CA928C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */; };
+		E5B66CAA28C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */; };
+		E5B66CAB28C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,11 @@
 		E5B66C8B28C09B1F00C9BF07 /* FavFoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavFoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B66C8F28C09B1F00C9BF07 /* FavFoodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavFoodsUITests.swift; sourceTree = "<group>"; };
 		E5B66C9128C09B1F00C9BF07 /* FavFoodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavFoodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5B66C9E28C0AA0700C9BF07 /*  GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GetStartedView.swift"; sourceTree = "<group>"; };
+		E5B66CA028C0B66300C9BF07 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		E5B66CA128C0B66300C9BF07 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E5B66CAC28C0B6AD00C9BF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +109,15 @@
 		E5B66C7328C09B1E00C9BF07 /* FavFoods */ = {
 			isa = PBXGroup;
 			children = (
+				E5B66CAC28C0B6AD00C9BF07 /* Info.plist */,
+				E5B66CA028C0B66300C9BF07 /* Poppins-Bold.ttf */,
+				E5B66CA128C0B66300C9BF07 /* Poppins-Regular.ttf */,
+				E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */,
 				E5B66C7428C09B1E00C9BF07 /* FavFoodsApp.swift */,
 				E5B66C7628C09B1E00C9BF07 /* ContentView.swift */,
 				E5B66C7828C09B1F00C9BF07 /* Assets.xcassets */,
 				E5B66C7A28C09B1F00C9BF07 /* Preview Content */,
+				E5B66C9E28C0AA0700C9BF07 /*  GetStartedView.swift */,
 			);
 			path = FavFoods;
 			sourceTree = "<group>";
@@ -231,8 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B66CA928C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */,
 				E5B66C7C28C09B1F00C9BF07 /* Preview Assets.xcassets in Resources */,
+				E5B66CA328C0B66400C9BF07 /* Poppins-Bold.ttf in Resources */,
 				E5B66C7928C09B1F00C9BF07 /* Assets.xcassets in Resources */,
+				E5B66CA628C0B66400C9BF07 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B66CAA28C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */,
+				E5B66CA428C0B66400C9BF07 /* Poppins-Bold.ttf in Resources */,
+				E5B66CA728C0B66400C9BF07 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B66CAB28C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */,
+				E5B66CA528C0B66400C9BF07 /* Poppins-Bold.ttf in Resources */,
+				E5B66CA828C0B66400C9BF07 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B66C7728C09B1E00C9BF07 /* ContentView.swift in Sources */,
+				E5B66C9F28C0AA0700C9BF07 /*  GetStartedView.swift in Sources */,
 				E5B66C7528C09B1E00C9BF07 /* FavFoodsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +452,7 @@
 				DEVELOPMENT_TEAM = 59TX2V2L74;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavFoods/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +482,7 @@
 				DEVELOPMENT_TEAM = 59TX2V2L74;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavFoods/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
