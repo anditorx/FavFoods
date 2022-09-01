@@ -24,6 +24,9 @@
 		E5B66CA928C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */; };
 		E5B66CAA28C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */; };
 		E5B66CAB28C0B66400C9BF07 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */; };
+		E5B66CAE28C0BE7D00C9BF07 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B66CAD28C0BE7D00C9BF07 /* HomeView.swift */; };
+		E5B66CAF28C0BE7D00C9BF07 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B66CAD28C0BE7D00C9BF07 /* HomeView.swift */; };
+		E5B66CB028C0BE7D00C9BF07 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B66CAD28C0BE7D00C9BF07 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		E5B66CA128C0B66300C9BF07 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		E5B66CA228C0B66400C9BF07 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		E5B66CAC28C0B6AD00C9BF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E5B66CAD28C0BE7D00C9BF07 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				E5B66C7828C09B1F00C9BF07 /* Assets.xcassets */,
 				E5B66C7A28C09B1F00C9BF07 /* Preview Content */,
 				E5B66C9E28C0AA0700C9BF07 /*  GetStartedView.swift */,
+				E5B66CAD28C0BE7D00C9BF07 /* HomeView.swift */,
 			);
 			path = FavFoods;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B66C7728C09B1E00C9BF07 /* ContentView.swift in Sources */,
+				E5B66CAE28C0BE7D00C9BF07 /* HomeView.swift in Sources */,
 				E5B66C9F28C0AA0700C9BF07 /*  GetStartedView.swift in Sources */,
 				E5B66C7528C09B1E00C9BF07 /* FavFoodsApp.swift in Sources */,
 			);
@@ -297,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B66C8628C09B1F00C9BF07 /* FavFoodsTests.swift in Sources */,
+				E5B66CAF28C0BE7D00C9BF07 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B66CB028C0BE7D00C9BF07 /* HomeView.swift in Sources */,
 				E5B66C9228C09B1F00C9BF07 /* FavFoodsUITestsLaunchTests.swift in Sources */,
 				E5B66C9028C09B1F00C9BF07 /* FavFoodsUITests.swift in Sources */,
 			);
